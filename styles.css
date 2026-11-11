@@ -323,6 +323,34 @@ h3 {
   font-size: 0.9rem;
 }
 
+.specs {
+  margin: 0.45rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.3rem;
+}
+
+.specs li {
+  color: var(--text);
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.specs .k {
+  display: inline-block;
+  min-width: 2.6rem;
+  margin-right: 0.4rem;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.62rem;
+}
+
+.specs em {
+  color: var(--muted);
+  font-style: normal;
+}
+
 .cta {
   display: grid;
   justify-items: center;
