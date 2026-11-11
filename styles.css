@@ -289,6 +289,13 @@ h3 {
   object-fit: contain;
 }
 
+.logos .learning {
+  margin-top: -0.15rem;
+  color: var(--muted);
+  font-size: 0.52rem;
+  opacity: 0.75;
+}
+
 .sub {
   margin-top: 1rem;
   color: var(--muted);
