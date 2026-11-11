@@ -106,8 +106,16 @@ h1 {
 
 .lang {
   display: inline-flex;
+  align-items: center;
   gap: 0.15rem;
   margin-top: 0.85rem;
+}
+
+.lang-icon {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-right: 0.2rem;
+  color: var(--muted);
 }
 
 .lang button {
