@@ -216,7 +216,7 @@ h2 {
   list-style: none;
 }
 
-.tiles.work li:last-child {
+.tiles.work li:last-child:nth-child(odd) {
   grid-column: 1 / -1;
 }
 
